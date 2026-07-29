@@ -1,0 +1,4 @@
+interface:
+  display_name: "Máquina Intent"
+  short_description: "Create a scoped Máquina work intent"
+  default_prompt: "Use $maquina-intent to create a scoped work intent for this task."

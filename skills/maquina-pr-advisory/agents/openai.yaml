@@ -1,0 +1,4 @@
+interface:
+  display_name: "Máquina PR Advisory"
+  short_description: "Prepare PR evidence for Máquina advisory"
+  default_prompt: "Use $maquina-pr-advisory to prepare this pull request for a Máquina operational advisory."
