@@ -1,6 +1,21 @@
 # Intent format
 
-Create JSON with this minimum shape:
+Prefer `maquina intent create` when the repository supplies it. It creates the
+JSON safely and requires at least one allowed path, context reference, and
+acceptance criterion:
+
+```bash
+maquina intent create \
+  --id TEAM-123 \
+  --title "Short outcome-oriented title" \
+  --objective "What will change and why." \
+  --work-type backend \
+  --allow service/handler.go \
+  --context AGENTS.md \
+  --accept "A specific observable outcome."
+```
+
+When the command is unavailable, create JSON with this minimum shape:
 
 ```json
 {
